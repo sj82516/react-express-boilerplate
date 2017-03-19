@@ -11,10 +11,7 @@
   ],
   "main": "index.js",
   "homepage": "http://redux-minimal.js.org/",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/catalin-luntraru/redux-minimal"
-  },
+  "repository": "https://github.com/catalin-luntraru/redux-minimal",
   "scripts": {
     "start": "concurrently \"webpack --watch --config webpack.dev.config.js\" \"node server.js\"",
     "start-prod": "concurrently \"webpack --watch --config webpack.prod.config.js\" \"node server.js\"",
@@ -32,15 +29,15 @@
   "license": "MIT",
   "dependencies": {
     "express": "^4.14.0",
+    "material-ui": "^0.17.1",
     "react": "^15.4.2",
-    "react-bootstrap": "^0.30.7",
+    "react-css-modules": "^4.1.0",
     "react-dom": "^15.4.2",
     "react-redux": "^5.0.2",
     "react-router": "^3.0.1",
-    "react-router-bootstrap": "^0.23.1",
     "react-router-redux": "^4.0.7",
+    "react-tap-event-plugin": "^2.0.1",
     "redux": "^3.6.0",
-    "redux-form": "^6.4.3",
     "redux-saga": "^0.14.3"
   },
   "devDependencies": {
