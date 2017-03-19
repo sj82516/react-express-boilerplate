@@ -7,4 +7,4 @@
 3. React Router
 4. 刪去Bootstrap改用Material UI
 5. React CSS Modules
-6. Express 與中間件、Socket IO  
+6. express 與中間件 body-parser、express-session、socket-io、mysql ioredis mongoose
